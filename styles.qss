@@ -1,0 +1,69 @@
+/* ---------- Umum ---------- */
+QWidget {
+    background-color: #f9fafb;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+/* ---------- Tombol ---------- */
+QPushButton {
+    background-color: #0078d7;
+    color: white;
+    border-radius: 6px;
+    padding: 6px 14px;
+    font-weight: 500;
+}
+
+QPushButton:hover {
+    background-color: #005fa3;
+}
+
+QPushButton:pressed {
+    background-color: #004d84;
+}
+
+/* ---------- Input Text ---------- */
+QLineEdit {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 6px 10px;
+    background-color: white;
+}
+
+QLineEdit:focus {
+    border: 1px solid #0078d7;
+    outline: none;
+}
+
+/* ---------- Tabel ---------- */
+QTableWidget {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background-color: white;
+    gridline-color: #eee;
+    selection-background-color: #0078d7;
+    selection-color: white;
+}
+
+QHeaderView::section {
+    background-color: #f1f3f4;
+    padding: 8px;
+    border: none;
+    font-weight: bold;
+}
+
+/* ---------- Scrollbar ---------- */
+QScrollBar:vertical {
+    width: 10px;
+    background: #f1f1f1;
+}
+
+QScrollBar::handle:vertical {
+    background: #bdbdbd;
+    border-radius: 5px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background: #a0a0a0;
+}
